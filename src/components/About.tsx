@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import { ABOUT_TEXT } from "../constants/index.js";
 
 function About() {
@@ -8,7 +9,13 @@ function About() {
       </h1>
 
       <div className="flex justify-center items-center">
-        <p className="max-w-2xl text-center my-2 py-6">{ABOUT_TEXT}</p>
+        <motion.p
+          whileInView={{ opacity: 1, scale: 1, x: 0 }}
+          initial={{ opacity: 0, scale: 0 }}
+          className="max-w-2xl text-center my-2 py-6"
+        >
+          {ABOUT_TEXT}
+        </motion.p>
       </div>
     </div>
   );
