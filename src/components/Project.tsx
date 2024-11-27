@@ -1,4 +1,3 @@
-import { DiVim } from "react-icons/di";
 import { PROJECTS } from "../constants/index.js";
 
 function Project() {
