@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ABOUT_TEXT } from "../constants/index.js";
+import { ABOUT_TEXT } from "../constants";
 
 function About() {
   return (

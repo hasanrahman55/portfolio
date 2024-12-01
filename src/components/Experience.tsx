@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { EXPERIENCES } from "../constants/index.js";
+import { EXPERIENCES } from "../constants/index";
 
 function Experience() {
   return (

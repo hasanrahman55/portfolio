@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { CONTACT } from "../constants/index.js";
+import { CONTACT } from "../constants/index";
 function Contact() {
   return (
     <div className="border-b border-neutral-900 pb-20 text-center">

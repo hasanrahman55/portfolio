@@ -4,9 +4,9 @@ import { FaNodeJs } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { DiRedis } from "react-icons/di";
 import { BiLogoMongodb } from "react-icons/bi";
-import { motion } from "motion/react";
+import { motion, Variants } from "motion/react";
 
-const iconVarient = (duration) => ({
+const iconVarient = (duration: number): Variants => ({
   initial: { y: -10 },
   animate: {
     y: [10, -10],
@@ -38,7 +38,7 @@ function Technology() {
       >
         <motion.div
           variants={iconVarient(2.5)}
-          inherit="initial"
+          initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
@@ -47,7 +47,7 @@ function Technology() {
 
         <motion.div
           variants={iconVarient(3)}
-          inherit="initial"
+          initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
@@ -56,7 +56,7 @@ function Technology() {
 
         <motion.div
           variants={iconVarient(5)}
-          inherit="initial"
+          initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
@@ -65,7 +65,7 @@ function Technology() {
 
         <motion.div
           variants={iconVarient(2)}
-          inherit="initial"
+          initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
@@ -74,7 +74,7 @@ function Technology() {
 
         <motion.div
           variants={iconVarient(6)}
-          inherit="initial"
+          initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
@@ -83,7 +83,7 @@ function Technology() {
 
         <motion.div
           variants={iconVarient(4)}
-          inherit="initial"
+          initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
