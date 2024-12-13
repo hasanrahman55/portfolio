@@ -14,7 +14,12 @@ function Project() {
       </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          // <a href="{project.link}" target="_blank"></a>
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center cursor-pointer"
+            onClick={() => window.open(project.link, "_blank")}
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -200 }}

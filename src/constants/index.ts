@@ -1,4 +1,4 @@
-import project2 from "../assets/projects/project-2.jpg";
+import jobPortal from "../assets/projects/job-portal.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With two years plus of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -44,11 +44,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Job Portal",
+    image: jobPortal,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React", "Firebase"],
+      "An application for Search and Apply for Jobs, Developed using React, Firebase and Tailwind CSS",
+    technologies: ["HTML", "Tailwind", "React", "Firebase"],
+    link: "https://job-portal-kappa-lyart.vercel.app/",
   },
 ];
 
