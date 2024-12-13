@@ -1,4 +1,5 @@
 import jobPortal from "../assets/projects/job-portal.png";
+import deepSense from "../assets/projects/deepsense.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With two years plus of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -43,6 +44,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "IT Solutions Website",
+    image: deepSense,
+    description:
+      "A professional and dynamic web presence for a leading IT company, showcasing innovative solutions and a user-centric design",
+    technologies: ["HTML", "css", "javascript"],
+    link: "https://deepsense-livid.vercel.app/",
+  },
   {
     title: "Job Portal",
     image: jobPortal,
