@@ -60,7 +60,7 @@ export const PROJECTS = [
     description:
       "A professional and dynamic web presence for a leading IT company, showcasing innovative solutions and a user-centric design",
     technologies: ["HTML", "css", "javascript"],
-    link: "https://deepsense-livid.vercel.app/",
+    link: "https://xyz-it-solution.vercel.app/",
   },
   {
     title: "Job Portal",
