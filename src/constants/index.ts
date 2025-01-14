@@ -1,6 +1,7 @@
 import jobPortal from "../assets/projects/job-portal.png";
 import deepSense from "../assets/projects/deepsense.png";
 import movieBhai from "../assets/projects/movieBhai.png";
+import bookingBhai from "../assets/projects/booking.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With two years plus of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -45,6 +46,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Booking Bhai",
+    image: bookingBhai,
+    description:
+      "Booking Bhai is a user-friendly app that lets you rent out or book spaces for offices, meetings, and more, on an hourly or daily basis. Simplify space management and find the perfect venue with ease!",
+    technologies: ["Next.js", "Tailwind CSS", "Appwrite"],
+    link: "https://booking-bhai.vercel.app/",
+  },
+
   {
     title: "Movie Bhai",
     image: movieBhai,
