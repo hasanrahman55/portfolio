@@ -2,6 +2,7 @@ import jobPortal from "../assets/projects/job-portal.png";
 import deepSense from "../assets/projects/deepsense.png";
 import movieBhai from "../assets/projects/movieBhai.png";
 import bookingBhai from "../assets/projects/booking.png";
+import myDashboard from "../assets/projects/myDashboard.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With two years plus of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -46,6 +47,21 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "My Dashboard",
+    image: myDashboard,
+    description:
+      "My Dashboard is a powerful and customizable dashboard application built with modern web technologies. It provides seamless data visualization, efficient data fetching, and a responsive UI for managing various business and personal insights.",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "ShadCN",
+      "TanStack Query",
+      "TanStack Table",
+    ],
+    link: "https://dashboard-uii.vercel.app/",
+  },
   {
     title: "Booking Bhai",
     image: bookingBhai,
