@@ -11,8 +11,11 @@ function Contact() {
       >
         Get In Touch
       </motion.h1>
-      <a href="mailto:" className="border-b text-center">
-        {CONTACT.email}
+      <a
+        href="mailto:hasanrahman33605@gmail.com"
+        className="border-b text-center"
+      >
+        Email Me
       </a>
     </div>
   );
