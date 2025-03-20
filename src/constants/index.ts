@@ -2,6 +2,7 @@ import jobPortal from "../assets/projects/job-portal.png";
 import deepSense from "../assets/projects/deepsense.png";
 import movieBhai from "../assets/projects/movieBhai.png";
 import bookingBhai from "../assets/projects/booking.png";
+import moodTrackerImage from "../assets/projects/mood.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With two years plus of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -46,6 +47,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Mood Tracker",
+    image: moodTrackerImage,
+    description:
+      "Mood Tracker is a simple yet effective app that allows users to log their daily mood, visualize it on a calendar, and filter entries by day, week, or month. It helps users reflect on their emotional well-being over time.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://track-mood.vercel.app/",
+  },
+
   {
     title: "Booking Bhai",
     image: bookingBhai,
