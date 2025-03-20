@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import { CONTACT } from "../constants/index";
 function Contact() {
   return (
     <div className="border-b border-neutral-900 pb-20 text-center">
@@ -11,8 +10,11 @@ function Contact() {
       >
         Get In Touch
       </motion.h1>
-      <a href="mailto:" className="border-b text-center">
-        {CONTACT.email}
+      <a
+        href="mailto:hasanrahman33605@gmail.com"
+        className="border-b text-center"
+      >
+        Email Me
       </a>
     </div>
   );

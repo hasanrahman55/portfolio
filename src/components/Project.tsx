@@ -31,7 +31,7 @@ function Project() {
                 alt={project.title}
                 height={150}
                 width={150}
-                className="mb-6 rounded"
+                className="mb-6 rounded object-cover"
               />
             </motion.div>
 
